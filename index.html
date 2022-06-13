@@ -21,6 +21,19 @@
         crossorigin="anonymous"
         async>
 </script>
+
+    <script type="application/javascript" src="https://sdki.truepush.com/sdk/v2.0.3/app.js" async></script>
+    <script>
+    var truepush = window.truepush || [];
+            
+    truepush.push(function(){
+        truepush.Init({
+            id: "62a762de419a554fa3bb3bb3"
+        },function(error){
+          if(error) console.error(error);
+        })
+    })
+    </script>
 <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 </html>
